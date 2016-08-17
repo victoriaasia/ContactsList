@@ -7,7 +7,7 @@ During the recent years, while github seized the market of distribution of sourc
 
 Despite the convenience of working with code, github couldn’t offer a decent documentation - wiki are thrown, and guide them through cvs too time-consuming. 
 
-ReadTheDocs tried to solve this problem and haven’t done it, but was close. There is a gitbook, but it can hardly be called “standard”.
+ReadTheDocs tried to solve this problem and hasn’t done it, but was close. There is a gitbook, but it can hardly be called “standard”.
 
 Today there are the following problems developers face with: 
 
