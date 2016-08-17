@@ -25,11 +25,11 @@
     <th>Surname</th>
     <th>Email</th>
     <th>Company</th>
-    <th>Job</th>
+    <th>Position</th>
     <th>Phone</th>
     <th></th>
    </tr>
-   <tr ng-repeat="contact in contacts | orderBy: 'id' | filter: search" id="{{contact.id}}">
+   <tr ng-repeat="contact in contacts | orderBy: 'id' | filter: search" id="{{contact.id}}" ng-click="foo($event, team)">
 
     <td><img ng-src="{{contact.avatar}}"/></td>
     <td>{{contact.first_name}}</td>
@@ -39,17 +39,18 @@
     <td>{{contact.job_title}}</td>
     <td>{{contact.phone}}</td>
 
-    <td><a class="btn btn-secondary" href ng-click='modal()'>open</a></td>
+    <td><a class="btn btn-secondary">open</a></td>
 
    </tr>
   </table>
+
+
 
 </div>
 
 
 
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/ng-dialog/0.6.2/js/ngDialog.min.js"></script>
   <script src="js/script.js"></script>
 </body>
 </html>

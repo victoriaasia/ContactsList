@@ -1,0 +1,28 @@
+Stackoverflow opened the "Documentation" section.
+
+There was quite a significant event in the development scope yesterday. 
+To tell specifically, in the area of support and maintenance of software. StackOverflow opened documentation section. Why is it important?
+
+During the recent years, while github seized the market of distribution of source code, documentation problem was acute.
+
+Despite the convenience of working with code, github couldn’t offer a decent documentation - wiki are thrown, and guide them through cvs too time-consuming. 
+
+ReadTheDocs tried to solve this problem and haven’t done it, but was close. There is a gitbook, but it can hardly be called “standard”.
+
+Today there are the following problems developers face with: 
+
+The lack of a convenient way to conduct a multi-documents with complex navigation.
+The need for interaction of many authors.
+No single document design style. Just take Mongoose documentation - irritating color, poor syntax highlighting.
+The need to select the storage and distribution.
+Problems of "paper" work themselves.
+
+Regarding StackOverflow offer, it appears that we’ll get  an interesting tool to solve the above problems and allows to make record keeping simpler process.  Opportunities: 
+
+Joint development with support comparisons (diff).
+The request for the creation of article.
+Voting for change, instead of a single author.
+The standard encouraging stackoverflow system.
+
+We can only hope that soon we’ll have quality of docs and tedious and unpleasant process of conducting for some of us has finally become pleasant.
+
